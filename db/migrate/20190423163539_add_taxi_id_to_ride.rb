@@ -1,4 +1,4 @@
-class AddTaxiIdToRide < ActiveRecord::Migration[5.0]
+class AddTaxiIdToRides < ActiveRecord::Migration[5.0]
   def change
   end
 end
