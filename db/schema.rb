@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20190423163841) do
   create_table "taxis", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "ride_id"
   end
 
 end
